@@ -44,7 +44,10 @@ export function Dialog({
                 </DialogPrimitive.Description>
               ) : null}
             </div>
-            <DialogPrimitive.Close className="rounded p-1 text-stone hover:bg-gray-100">
+            <DialogPrimitive.Close
+              aria-label="Close"
+              className="rounded p-1 text-stone hover:bg-gray-100"
+            >
               <X className="h-4 w-4" />
             </DialogPrimitive.Close>
           </div>
