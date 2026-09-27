@@ -1,6 +1,11 @@
 /** Page size for the paginated /api/users list (cursor-based "Load more"). */
 export const USERS_PAGE_SIZE = 50;
+
+/** Page size for the paginated /api/community-posts list (cursor-based "Load more"). */
 export const COMMUNITY_POSTS_PAGE_SIZE = 50;
+
+/** Maximum allowed page size for paginated endpoints. */
+export const MAX_PAGE_SIZE = 100;
 
 /** Search input debounce on the Users page, in milliseconds. */
 export const SEARCH_DEBOUNCE_MS = 300;
